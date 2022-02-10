@@ -1,1 +1,6 @@
-/* add home page styles here */
+header{
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+}
