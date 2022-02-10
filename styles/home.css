@@ -1,3 +1,6 @@
+
+
+
 header{
     display:flex;
     justify-content: space-evenly;
@@ -9,6 +12,13 @@ header{
     align-items: center;
     font-family: 'ABeeZee', sans-serif;
 
+}
+
+@media (max-width: 600px) {
+    .grouch {
+        background-color: aquamarine;
+        display: none;
+    }
 }
 
 main {
@@ -34,7 +44,7 @@ input{
     height: 60px;
     width: 500px;
     color: rgba(0, 0, 0, 0.253);
-    
+    /* top: 200px; */
 }
 .logo {
 width:200px;
